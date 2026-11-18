@@ -229,7 +229,7 @@ svg { display: block; }
 .mode-btns { display: flex; flex-direction: column; align-items: center; gap: 14px; }
 .mode-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 10px; }
 .mode-grid .btn { min-width: 0; padding: 9px 12px; font-size: 15px; }
-.mode-grid .btn.wide { grid-column: 1 / -1; }
+.mode-grid .btn.selected { background: var(--yellow); transform: translateY(2px); box-shadow: 0 3px 0 var(--ink); }
 .goal.small { font-size: 13.5px; }
 
 /* ---------- level map and upgrades shop ---------- */
