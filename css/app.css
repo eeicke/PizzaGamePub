@@ -198,6 +198,8 @@ svg { display: block; }
 
 .shake1 .ing-bowl { animation: nope-a .3s; }
 .shake2 .ing-bowl { animation: nope-b .3s; }
+.wince1 .face { animation: nope-a .3s; }
+.wince2 .face { animation: nope-b .3s; }
 .pop1 .ing-count { animation: bump-a .35s; }
 .pop2 .ing-count { animation: bump-b .35s; }
 
